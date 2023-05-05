@@ -6,7 +6,8 @@
 # Load our cities data 
 cities <- read.csv("cities_data.csv")
 View(cities)
-
+# ZH making some changes!
+cities$city <- "Yangon"
 # Check for outiers:
 boxplot(cities$unemployment_rate)
 # We have two outliers! 
